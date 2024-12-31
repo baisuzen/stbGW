@@ -8,6 +8,6 @@ proxies:
   sni: xt.narxz.my.id
   network: ws
   ws-opts:
-    path: "/trojanws"
+    path: /20.233.68.69-2053
     headers:
       Host: xt.narxz.my.id
