@@ -1,0 +1,13 @@
+proxies:
+- name: akunGITHUB
+  server: id2.wibuserver.cloud
+  port: 443
+  type: trojan
+  password: 52367e9e-6d56-4685-b591-77f0d1ca7f14
+  skip-cert-verify: true
+  sni: id2.wibuserver.cloud
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: id2.wibuserver.cloud
